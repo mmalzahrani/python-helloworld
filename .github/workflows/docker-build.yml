@@ -42,4 +42,4 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64
           push: true
-          tags: mmoalzahrani/python-helloworld
+          tags: mmoalzahrani/python-helloworld:latest
