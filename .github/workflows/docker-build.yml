@@ -32,8 +32,8 @@ jobs:
         name: Login to DockerHub
         uses: docker/login-action@v1 
         with:
-          username: ${{ mmoalzahrani }}
-          password: ${{ dckr_pat_yOvZgXIk9jE2PQQPdHzBYFr9-bw }}
+          username: ${{ secerts.mmoalzahrani }}
+          password: ${{ secerts.dckr_pat_yOvZgXIk9jE2PQQPdHzBYFr9-bw }}
       -
         name: Build and push
         uses: docker/build-push-action@v2
